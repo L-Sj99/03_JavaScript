@@ -1,0 +1,33 @@
+.caclulator{
+  width: 300px;
+  min-height: 150px;
+  border: 3px solid rgb(108, 111, 151);
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+}
+.row{
+  margin: 10px 0;
+}
+.btn-row{
+  display: flex;
+}
+.btn-row>button{
+  height: 30px;
+  margin: 0 5px;
+  flex-grow: 1;
+  font-size: 20px;
+  font-weight: bold;
+}
+#calcResult{
+  color: rgb(67, 21, 107);
+}
+#calcResult2{
+  color: rgb(67, 21, 107);
+}
+
+.btn2>button{
+  font-size: 10px;
+  letter-spacing: -1px; /* 자간 설정 */
+}
+
