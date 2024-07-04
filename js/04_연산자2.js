@@ -95,6 +95,7 @@ function multipleCheck(){
   /* 
   AND(&&) : 둘 다 true인 경우에만 true (나머진 false)
   OR(||) : 둘 다 false인 경우에만 false (나머진 true)
+  NOT(!) : 논리 값을 반대로 바꾸는 연산자
 
   */
   /* AND 연산자 확인 */
@@ -126,3 +127,7 @@ function multipleCheck(){
   }
 
   /* NOT 연산자 확인 */ 
+  function notCheck(){
+    const bool1 = (10 > 5) || !(10 % 2 === 0);
+    console.log(`ture인가? false인가? ${bool1}`)
+  }
