@@ -209,3 +209,23 @@
 .btn-row > button:active{
   opacity: 0.7;
 }
+
+/* 비밀번호 변경하기 */
+
+.pwChange-btn{
+  color: violet;
+  background-color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: bold;
+  flex-flow: 1;
+  border: 5px solid violet;
+  margin: 0 125px;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.pwChange-btn:hover{
+  color : white;
+  background-color: violet;
+}
