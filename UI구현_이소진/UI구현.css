@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.win{
+  padding: 0px;
+  margin: 30px auto;
+  display: flex;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.win-2{
+  padding: 10px;
+  margin: 5px;
+  display: block;
+  margin-left: 20%;
+}
+
+#btn{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 50%;
+  margin-bottom: 20px;
+}
+
+
+#result{
+  border: 2px solid black;
+  display: flex;
+}

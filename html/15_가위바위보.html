@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15_가위 바위 보</title>
+  <link rel="stylesheet" href="../css/15_가위바위보.css">
+</head>
+<body>
+  <main class="box">
+    <div class="rsp">
+        <div class="left">
+          <h3>USER</h3>
+          <p>
+            <img src="../가위바위보/images/가위L.png" id="img1">
+          </p>
+          <p class="btns">
+          <button onclick="btn()" class="btn" id="btn">가위</button>
+          <button onclick="btn()" class="btn" id="btn">바위</button>
+          <button onclick="btn()" class="btn" id="btn">보</button>
+          </p>
+        </div>
+        <div id="vs">VS</div>
+        <div class="right">
+          <h3>COM</h3>
+          <p>
+          <img src="../가위바위보/images/가위R.png" id="img2">
+          </p>
+          <p class="btns">
+            <button onclick="btn()" class="btn" id="sbtn">GAME START</button>
+          </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h4>USER VS COM</h4>
+        <table class="result-table" border="1">
+          <thead>
+            <tr>
+              <th>승</th>
+              <th>무</th>
+              <th>패</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr id="td1">
+            <th>1</th>
+            <th>1</th>
+            <th>1</th>
+          </tr>
+        </tbody>
+      </table>
+
+      <ul id="game">
+				<li>
+					<span class="win">WIN</span>
+					<span>가위</span> VS <span>보</span>
+				</li>
+				<li>
+					<span class="lose">LOSE</span>
+					<span>바위</span> VS <span>보</span>
+				</li>
+				<li>
+					<span class="draw">DRAW</span>
+					<span>보</span> VS <span>보</span>
+				</li>
+			</ul>
+    </div>
+  </main>
+
+  <script src="../js/15_가위바위보.js"></script>
+</body>
+</html>

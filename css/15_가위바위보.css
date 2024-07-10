@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+.box{
+  display: flex;
+  justify-content: center;
+}
+.rsp{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+#img1{
+  width: 250px;
+  height: 250px;
+  border: 1px solid rgb(144, 182, 187);
+
+}
+#img2{
+  width: 250px;
+  height: 250px;
+  border: 1px solid rgb(144,182,187);
+}
+
+.btns{
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  margin: 0 5px;
+  padding: 5px 20px;
+  background-color: white;
+  border : 3px solid rgb(144,182,187);
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn:hover{
+  color : white;
+  background-color: rgb(144, 182, 187);
+  }
+  
+.btn:active{
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+  }
+
+#vs{
+  margin: 10px 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.container{
+  width: 210px;
+  padding-right: 10px;
+  margin-left: 5px;
+  overflow: auto;
+  position: relative;
+}
+
+.container>h4{
+  border: 1px solid rgb(144, 182, 187);
+  margin-bottom: 5px;
+  padding: 5px 0;
+  text-align: center;
+}
+.result-table{
+  border-collapse: collapse;
+  width: 100%;
+  margin: 10px 0;
+  position: sticky;
+  background-color: white;
+}
+
+#game .win{
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+  color: forestgreen;
+}
+#game .lose{
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+  color: brown;
+}
+
+#game .draw{
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: rgb(41, 73, 63);
+}
+
+#game>span{
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
