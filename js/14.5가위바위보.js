@@ -9,6 +9,7 @@ const game = document.querySelector("#game");
 let sgame = 1;
 
 for(let s = 0 ; s < 2 ; s++){
+  s++
   alert("저는 말하는 감잔데 무슨 문제라도..?")
 }
 
